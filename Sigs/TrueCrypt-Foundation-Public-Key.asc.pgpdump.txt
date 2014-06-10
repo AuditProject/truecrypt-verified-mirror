@@ -1,0 +1,78 @@
+Old: Public Key Packet(tag 6)(418 bytes)
+	Ver 4 - new
+	Public key creation time - Sun Jun  6 11:13:17 CEST 2004
+	Pub alg - DSA Digital Signature Algorithm(pub 17)
+	DSA p(1024 bits) - ...
+	DSA q(160 bits) - ...
+	DSA g(1021 bits) - ...
+	DSA y(1024 bits) - ...
+Old: User ID Packet(tag 13)(44 bytes)
+	User ID - TrueCrypt Foundation <contact@truecrypt.org>
+Old: Signature Packet(tag 2)(97 bytes)
+	Ver 4 - new
+	Sig type - Generic certification of a User ID and Public Key packet(0x10).
+	Pub alg - DSA Digital Signature Algorithm(pub 17)
+	Hash alg - SHA1(hash 2)
+	Hashed Sub: signature creation time(sub 2)(4 bytes)
+		Time - Tue Mar 20 22:52:24 CET 2007
+	Hashed Sub: preferred symmetric algorithms(sub 11)(7 bytes)
+		Sym alg - AES with 256-bit key(sym 9)
+		Sym alg - AES with 192-bit key(sym 8)
+		Sym alg - AES with 128-bit key(sym 7)
+		Sym alg - CAST5(sym 3)
+		Sym alg - Triple-DES(sym 2)
+		Sym alg - IDEA(sym 1)
+		Sym alg - Twofish with 256-bit key(sym 10)
+	Hashed Sub: key flags(sub 27)(4 bytes)
+		Flag - This key may be used to certify other keys
+		Flag - This key may be used to sign data
+	Hashed Sub: features(sub 30)(4 bytes)
+		Flag - Modification detection (packets 18 and 19)
+	Hashed Sub: preferred hash algorithms(sub 21)(4 bytes)
+		Hash alg - RIPEMD160(hash 3)
+		Hash alg - SHA256(hash 8)
+		Hash alg - SHA512(hash 10)
+		Hash alg - SHA384(hash 9)
+	Sub: issuer key ID(sub 16)(8 bytes)
+		Key ID - 0xE3BA73CAF0D6B1E0
+	Hash left 2 bytes - 7e ac 
+	DSA r(160 bits) - ...
+	DSA s(157 bits) - ...
+		-> hash(DSA q bits)
+Old: Signature Packet(tag 2)(290 bytes)
+	Ver 4 - new
+	Sig type - Generic certification of a User ID and Public Key packet(0x10).
+	Pub alg - RSA Encrypt or Sign(pub 1)
+	Hash alg - SHA1(hash 2)
+	Hashed Sub: signature creation time(sub 2)(4 bytes)
+		Time - Wed Mar 21 02:08:34 CET 2007
+	Hashed Sub: signature expiration time(sub 3)(4 bytes)
+		Time - Wed Apr  4 03:08:34 CEST 2007
+	Sub: issuer key ID(sub 16)(8 bytes)
+		Key ID - 0x9710B89BCA57AD7C
+	Hash left 2 bytes - 9b fc 
+	RSA m^d mod n(2047 bits) - ...
+		-> PKCS-1
+Old: Public Subkey Packet(tag 14)(1033 bytes)
+	Ver 4 - new
+	Public key creation time - Sun Jun  6 11:16:25 CEST 2004
+	Pub alg - ElGamal Encrypt-Only(pub 16)
+	ElGamal p(4077 bits) - ...
+	ElGamal g(2 bits) - ...
+	ElGamal y(4075 bits) - ...
+Old: Signature Packet(tag 2)(76 bytes)
+	Ver 4 - new
+	Sig type - Subkey Binding Signature(0x18).
+	Pub alg - DSA Digital Signature Algorithm(pub 17)
+	Hash alg - SHA1(hash 2)
+	Hashed Sub: signature creation time(sub 2)(4 bytes)
+		Time - Sun Jun  6 11:16:25 CEST 2004
+	Hashed Sub: key flags(sub 27)(4 bytes)
+		Flag - This key may be used to encrypt communications
+		Flag - This key may be used to encrypt storage
+	Sub: issuer key ID(sub 16)(8 bytes)
+		Key ID - 0xE3BA73CAF0D6B1E0
+	Hash left 2 bytes - ac e0 
+	DSA r(156 bits) - ...
+	DSA s(157 bits) - ...
+		-> hash(DSA q bits)

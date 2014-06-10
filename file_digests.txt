@@ -1,0 +1,40 @@
+SHA256 (shasum -a 256, sha256sum, or openssl dgst -sha256)
+=======
+3f48210cca1c17f433572845586d5e2a1a717a545480d136cb970689a44e3c32  ./Linux/truecrypt-7.1a-linux-console-x64.tar.gz
+d9bbdbdb0b30fcf3f35e0b82aaab7cd01c221b0c5724ab2a9ede7f9d05fb534c  ./Linux/truecrypt-7.1a-linux-console-x64.tar.gz.sig
+7871a40aaca4556d2c6f3377d62347bc38302f4f1ef191e7d07123bdf4a4d008  ./Linux/truecrypt-7.1a-linux-console-x86.tar.gz
+06b4b7608b6f06f68612f694309d8a6e43e4adfbf8e933fb6890c6556e2602c3  ./Linux/truecrypt-7.1a-linux-console-x86.tar.gz.sig
+43f895cfcdbe230907c47b4cd465e5c967bbe741a9b68512c09f809d1a2da1e9  ./Linux/truecrypt-7.1a-linux-x64.tar.gz
+62f95e8d8a7cee3dd1072f54942d39605e2a860031ce56ea0a6e6b832e4ad147  ./Linux/truecrypt-7.1a-linux-x64.tar.gz.sig
+9d292baf87df34598738faef7305cddaa15ea9f174c9923185653fb28f8cfef0  ./Linux/truecrypt-7.1a-linux-x86.tar.gz
+11f2d29b9f6b93be73f1605534c9bc0f9659e2736e1d4e7c08b73c6db6095f9a  ./Linux/truecrypt-7.1a-linux-x86.tar.gz.sig
+04db58b737c05bb6b0b83f1cb37a29edec844b59ff223b9e213ee1f4e287f586  ./OSX/TrueCrypt 7.1a Mac OS X.dmg
+f734cdefc13ab95ddd5aaa27218b1f7fc97b8f256bd09bcb47b3932274469973  ./OSX/TrueCrypt 7.1a Mac OS X.dmg.sig
+e6214e911d0bbededba274a2f8f8d7b3f6f6951e20f1c3a598fc7a23af81c8dc  ./Source/TrueCrypt 7.1a Source.tar.gz
+3de1be6ff4793c5d7269384a5739bb4c985068b15978d17d5bd71403e0f02177  ./Source/TrueCrypt 7.1a Source.tar.gz.sig
+9ec1a8002d80a4bfa43cb1d4116fb59c3f00d94407a042556183fe72541ea431  ./Source/TrueCrypt 7.1a Source.zip
+cadd4333abdaf87ae8d2298789d7485b015bbd55be959e02c9d0c9131ccf3281  ./Source/TrueCrypt 7.1a Source.zip.sig
+26d4446f040bf6989a19b197f69d0fc2a80fb6fa826750163f396ee904ac4b27  ./Sigs/TrueCrypt-Foundation-Public-Key.asc
+e95eca399dfe95500c4de569efc4cc77b75e2b66a864d467df37733ec06a0ff2  ./Windows/TrueCrypt Setup 7.1a.exe
+1f6b9f5e13d1d8fe0070cf60688176e85458ddf602dfb987efa9c08f7140b69b  ./Windows/TrueCrypt Setup 7.1a.exe.sig
+
+
+MD5 (md5sum, md5, openssl dgst -md5)
+======================================
+eb71d8108afec84d4dc72c523b57763a  truecrypt-7.1a-linux-console-x64.tar.gz
+93607994136af9243c90e990a58afab8  truecrypt-7.1a-linux-console-x64.tar.gz.sig
+218d80bbe69cb63dba124efb62600e0f  truecrypt-7.1a-linux-console-x86.tar.gz
+bd7bd8d6b46e536f53d2d84ce39988c3  truecrypt-7.1a-linux-console-x86.tar.gz.sig
+bb355096348383987447151eecd6dc0e  truecrypt-7.1a-linux-x64.tar.gz
+5e49425dd6f63a5af00b2539f0405884  truecrypt-7.1a-linux-x64.tar.gz.sig
+09355fb2e43cf51697a15421816899be  truecrypt-7.1a-linux-x86.tar.gz
+6d7a585a90aeccece71de2ac1b9d8395  truecrypt-7.1a-linux-x86.tar.gz.sig
+89affdc42966ae5739f673ba5fb4b7c5  TrueCrypt 7.1a Mac OS X.dmg
+c2b6489c433b1210800a27a2554f31a1  TrueCrypt 7.1a Mac OS X.dmg.sig
+102d9652681db11c813610882332ae48  TrueCrypt 7.1a Source.tar.gz
+5bca3d15b35d0725ff3317e568062ad8  TrueCrypt 7.1a Source.tar.gz.sig
+3ca3617ab193af91e25685015dc5e560  TrueCrypt 7.1a Source.zip
+da03d92b896a7f888a030f0eb5511f5d  TrueCrypt 7.1a Source.zip.sig
+41612478ceeee8448b87a5e872f07302  TrueCrypt-Foundation-Public-Key.asc
+7a23ac83a0856c352025a6f7c9cc1526  TrueCrypt Setup 7.1a.exe
+015a30c68450b9559bda52eb2fa0ff3e  TrueCrypt Setup 7.1a.exe.sig
